@@ -1,0 +1,16 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "80:5000"
+    volumes: 
+      - /qrapp:/qrapp
+    links:
+      - db:mongodb
+    container_name: orderme_web
+    depends_on:
+      - db
+  db:
+    image: mongo:3.0.2 
+    container_name: orderme_db

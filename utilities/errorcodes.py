@@ -1,0 +1,8 @@
+err_ids = "MISSING_ID"
+err_dbf = "DATABASE_FAILURE"
+err_frm = "INCORRECT_DATA_FORMAT"
+err_aex = "ALREADY_EXISTS"
+err_unk = "UNKNWON_FAILURE"
+err_pwd = "INCORRECT_CREDENTIALS"
+err_tkn = "TOKEN_EXPIRED"
+err_nau = "NOT_AUTHORIZED"

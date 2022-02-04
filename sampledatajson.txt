@@ -1,0 +1,34 @@
+{
+	"restaurant_id":"vips",
+	"menu_items":
+				[
+				{
+					"item_id":"Patatas BraVIPS",
+					"description": "Patatas en espiral con salsas mayo-VIPS y salsa chili sriracha.",
+					"allergens":["Egg"],
+					"category":"Entrantes",
+					"prize":7.50	
+				},
+				{
+					"item_id":"Sandwhich Smoky Joe",
+					"description": "Vacuno marinado en cerveza tostada, queso cheddar ahumado fundido sobre pimientos asados, rúcula, pesto de hierbas frescas y salsa especial VIPS, en crujiente pan rústico. Acompañado de guarnición a elegir y salsa especial VIPS.",
+					"allergens":["none"],
+					"category":"Sandwiches",
+					"prize":10.80
+				},
+				{
+					"item_id":"Tarta Choco&Caramel",
+					"description": "Esponjoso bizcocho con mousse de caramelo, crema de caramelo salado y recubierto de bombón, ​acompañada de nata montada VIPS y caramelo efervescente. ",
+					"allergens":["milk", "nut"],
+					"category":"Postres",
+					"prize":5.00
+				},
+				{
+					"item_id":"Refresco",
+					"description": "Refresco siempre lleno",
+					"allergens":["none"],
+					"category":"Bebidas",
+					"prize":2.70
+				}
+				]
+}
